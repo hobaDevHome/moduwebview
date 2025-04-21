@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AR Model View</title>
+    <title>AR Marker Test</title>
     <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/AR-js-org/AR.js@3.4.2/aframe/build/aframe-ar.min.js"></script>
     <style>
@@ -29,29 +29,7 @@
     >
       <!-- Target Marker 1 -->
       <a-marker type="pattern" url="hiro.patt">
-        <a-entity
-          gltf-model="model1.glb"
-          scale="0.5 0.5 0.5"
-          position="0 0 0"
-        ></a-entity>
-      </a-marker>
-
-      <!-- Target Marker 2 -->
-      <a-marker type="pattern" url="target2.patt">
-        <a-entity
-          gltf-model="model2.glb"
-          scale="0.5 0.5 0.5"
-          position="0 0 0"
-        ></a-entity>
-      </a-marker>
-
-      <!-- Target Marker 3 -->
-      <a-marker type="pattern" url="target3.patt">
-        <a-entity
-          gltf-model="model3.glb"
-          scale="0.5 0.5 0.5"
-          position="0 0 0"
-        ></a-entity>
+        <!-- No model attached, just for testing marker detection -->
       </a-marker>
 
       <!-- Camera Entity -->
